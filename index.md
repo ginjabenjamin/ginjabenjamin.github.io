@@ -1,4 +1,4 @@
-# [](#header-1)Hello, World
+# Hello, World
 
 That is all
 

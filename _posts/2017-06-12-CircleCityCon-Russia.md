@@ -24,7 +24,7 @@ RELRO     : Partial
 
 
 ## TL;DR
-Break at 0x004006dd, examine RAX to brute the 32 flag characters.
+Break at 0x004006dd, examine RAX to brute the 32 flag characters (minus 'C4TF{...}').
 
 ## Analysis
 If no arguments are passed, usage is output:
@@ -44,7 +44,7 @@ Early in main(), we also see a compare instruction after a strlen() call:
 
 Breaking at 0x0040064f we can determine that the condition we need to meet is 32. Sure enough, passing a flag of 32 characters, we get further into the program, arriving at the algorithm where the magic happens.
 
-[Algorithm]: https://ginjabenjamin.github.io/objects/2017-06-12-CircleCityCon-Russia/russia.png "Russian Algorithms"
+![Russian Algorithms](https://ginjabenjamin.github.io/objects/2017-06-12-CircleCityCon-Russia/russia.png "Russian Algorithms")
 
 In the 0x00400690 block, we see some math/logic operations, and ultimately a compare operation (0x004006dd) against EAX and EDX. By stepping though, we determine that RAX (EAX for CMP) is the current character (as determined from the counter variable RDP-0x14) from our input string and RDX (EDX for CMP) is the current target flag character.
 

@@ -8,6 +8,25 @@ tags: [reversing, ctf]
 
 Binary: [skipper-32]({{ site.url }}/objects/2017-02-14-BssidesSF-Skipper/skipper-32 "skipper-32")
 
+## Challange
+
+### Type: 
+Reverse Engineering
+
+#### File: 
+```
+re2: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 2.6.32, BuildID[sha1]=08fba98083e7c1f7171fd17c82befdfe1dcbcc82, stripped
+```
+#### Protections:
+```
+    Arch:     amd64-64-little
+    RELRO:    Partial RELRO
+    Stack:    No canary found
+    NX:       NX enabled
+    PIE:      No PIE (0x400000)
+```
+
+
 ## TL;DR
 Why brute inputs when you can patch your way to the flag?
 

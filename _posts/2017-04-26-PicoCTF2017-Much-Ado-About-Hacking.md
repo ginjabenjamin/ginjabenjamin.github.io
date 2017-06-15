@@ -6,6 +6,11 @@ tags: [reversing, ctf]
 # PicoCTF 2017
 ## Much Ado About Hacking
 
+## Challange
+
+### Type: 
+Reverse Engineering
+
 ## TL;DR
 A parser by any other name... Seriously though, reading is not just fun; it is fundamental.
 

@@ -1,7 +1,7 @@
 '''
 pwnables.kr - brain fuck
 
-Writeup: https://ginjabenjamin.github.io/wargame/2017/06/15/pwnableskr-brain-fuck
+Writeup: https://ginjabenjamin.github.io/pwn/2017/06/15/pwnableskr-brain-fuck
 '''
 from pwn import *
 

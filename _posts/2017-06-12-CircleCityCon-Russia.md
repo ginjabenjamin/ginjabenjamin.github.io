@@ -1,7 +1,7 @@
 ---
 layout: default
 category: CTF
-tags: [re, ctf]
+tags: [reversing, ctf]
 ---
 # Circle City Con CTF (C4TF)
 ## Russia - Let's Compare Ourselves

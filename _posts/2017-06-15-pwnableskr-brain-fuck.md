@@ -8,7 +8,7 @@ tags: [reversing, pwn, writeup]
 
 Source: [pwnables.kr](http://pwnable.kr/play.php)
 
-Solution: [solve.py](https://ginjabenjamin.github.io/objects/2017-06-15-pwnableskr-brain-fuck/brainfuck-solve.py)
+Solution: [solve.py]({{site.url}}/objects/2017-06-15-pwnableskr-brain-fuck/brainfuck-solve.py)
 
 ## Challenge
 ### Type:

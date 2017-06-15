@@ -1,5 +1,7 @@
 ---
 layout: default
+category: Random
+tags: [jekyll, github]
 ---
 # Implementing a Jekyll Theme on Github.io
 

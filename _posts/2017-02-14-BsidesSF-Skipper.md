@@ -3,7 +3,7 @@ layout: default
 category: CTF
 tags: [reversing, ctf]
 ---
-# Bsides SF 2017
+# BSides SF 2017
 ## Skipper
 
 Binary: [skipper-32]({{ site.url }}/objects/2017-02-14-BssidesSF-Skipper/skipper-32 "skipper-32")

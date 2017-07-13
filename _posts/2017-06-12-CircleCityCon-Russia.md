@@ -18,12 +18,13 @@ Reverse Engineering
 russia: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 2.6.32, BuildID[sha1]=f974aef4a26e61c61a5e4efa8b56669f1e01916c, stripped
 
 #### Protections:
+```
 CANARY    : disabled
 FORTIFY   : disabled
 NX        : ENABLED
 PIE       : disabled
 RELRO     : Partial
-
+```
 
 ## TL;DR
 Break at 0x004006dd, examine RAX to brute the 32 flag characters (minus 'C4TF{...}').

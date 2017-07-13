@@ -1,0 +1,38 @@
+---
+layout: default
+category: {category}
+tags: [{tags}]
+---
+# {CTF}
+## {Challenge Title}
+
+## Source
+{Challenge source}
+
+```
+{Challenge}
+```
+
+## Challenge
+
+### Type: 
+{Type}
+
+#### File: 
+{file}
+
+#### Protections:
+{checksec}
+
+## TL;DR
+{TLDR}
+
+## Analysis
+{Analysis}
+
+```
+{Flag}
+```
+
+## Lesson Learned
+{Lesson Learned}

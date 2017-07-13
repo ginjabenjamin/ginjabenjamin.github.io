@@ -9,7 +9,7 @@ tags: [reversing, ctf]
 Binary: [russia](https://ginjabenjamin.github.io/objects/2017-06-12-CircleCityCon-Russia/russia)
 Solution: [auto-cmp.py](https://ginjabenjamin.github.io/objects/2017-06-12-CircleCityCon-Russia/auto-cmp.py)
 
-## Challange
+## Challenge
 
 ### Type: 
 Reverse Engineering

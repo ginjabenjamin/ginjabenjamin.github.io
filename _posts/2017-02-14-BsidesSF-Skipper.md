@@ -8,7 +8,7 @@ tags: [reversing, ctf]
 
 Binary: [skipper-32]({{ site.url }}/objects/2017-02-14-BssidesSF-Skipper/skipper-32 "skipper-32")
 
-## Challange
+## Challenge
 
 ### Type: 
 Reverse Engineering

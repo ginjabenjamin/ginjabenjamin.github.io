@@ -6,7 +6,7 @@ tags: [reversing, ctf]
 # PicoCTF 2017
 ## Much Ado About Hacking
 
-## Challange
+## Challenge
 
 ### Type: 
 Reverse Engineering
